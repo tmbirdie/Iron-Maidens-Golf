@@ -3,7 +3,7 @@ body {
     padding: 0;
 }
 header {
-    background-color: black;
+    background-color: transparent;
     background-image: url(../images/GolfCourseLanding-Opt.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -15,7 +15,7 @@ nav {
     padding: 0;
 }
 div.navbar-header {
-    background-color: rgba(0,0,0,.8);
+    background-color: rgba(0,0,0,.2);
     color: white;
 }
 span.brand-style {
@@ -36,8 +36,13 @@ span.brand-style {
 }
 .nav.navbar-nav {
     margin-left: 10px;
+    color: white;
+}
+.navbar-default .navbar-nav > li > a {
+    color: white;
 }
 #navbar-collapse.navbar-collapse.collapse {
-    background-color: rgba(0,0,0,.8);
+    background-color: rgba(0,0,0,.2);    
     width: auto;
 }
+
