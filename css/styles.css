@@ -1,50 +1,43 @@
 body {
-	margin: 0;
-	padding: 0;
+    margin: 0;
+    padding: 0;
 }
-
 header {
-	background-color: black;
-	background-image: url(../images/GolfCourseLanding-Opt.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	height: 600px;
-	width: auto;
-	
+    background-color: black;
+    background-image: url(../images/GolfCourseLanding-Opt.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    width: auto;
 }
-
 nav {
-	margin: 0;
-	padding: 0;
+    margin: 0;
+    padding: 0;
 }
-
-
 div.navbar-header {
-	background-color: rgba(0,0,0,.8);
-	color: white;
-	
+    background-color: rgba(0,0,0,.8);
+    color: white;
 }
-
 span.brand-style {
-	color: white;
-	padding-left: 15px;
-	
+    color: white;
+    padding-left: 15px;
 }
-
 .navbar-default .navbar-brand {
-	dispaly: none;
-	
+    dispaly: none;
 }
-
 .navbar {
-	width:auto; 
-	left: -15px; 
-	right: -15px;
+    width: auto;
+    left: -15px;
+    right: -15px;
 }
-
+.navbar-toggle {
+    margin-right: 30px;
+    ;
+}
+.nav.navbar-nav {
+    margin-left: 10px;
+}
 #navbar-collapse.navbar-collapse.collapse {
-	background-color: rgba(0,0,0,.8);
-	width: auto;
-	
+    background-color: rgba(0,0,0,.8);
+    width: auto;
 }
-
