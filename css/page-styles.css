@@ -7,10 +7,10 @@ body {
 }
 header {
     background-color: transparent;
-    background-image: url(../images/GolfCourseLanding-Opt.jpg);
-    background-size: cover;
+/*    background-image: url(../images/GolfCourseLanding-Opt.jpg);
+*/    background-size: cover;
     background-repeat: no-repeat;
-    height: 400px;
+    height: 650px;
     width: auto;
 }
 
@@ -71,12 +71,36 @@ section {
 	padding: 0 20px;
 }
 
+footer {
+	padding: 20px;
+}
+
+.panel-footer {
+	background-color: inherit;
+}
+
+
+@media only screen and (min-width: 992px) {
+	header {
+    height: 600px;
+    width: auto;
+}
+}
+
+@media only screen and (max-width: 768px) {
+	header {
+    height: 500px;
+    width: auto;
+}
+}
 
 
 
 @media only screen and (max-width: 600px) {
 	h3 {
-		font-size: 1.1em;
+		font-size: 1.6em;
+		line-height: 1.5;
+		
 	}
 	section {
 	height: 100px;
@@ -85,19 +109,9 @@ section {
 	margin: 5px 5px;
 	padding: 0 20px;
 }
-	
+	header {
+    height: 450px;
+    width: auto;
 }
-@media only screen and (max-width: 400px) {
-	h3 {
-		font-size: 1.0em;
-	}
-	section {
-	height: 100px;
-	width:auto;
-	text-align: center;
-	margin: 5px 5px;
-	padding: 0 20px;
-}
-	
 }
 
