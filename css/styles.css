@@ -1,15 +1,33 @@
 body {
     margin: 0;
     padding: 0;
+	background-color: #363c41;
+	color: white;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
 }
 header {
     background-color: transparent;
     background-image: url(../images/GolfCourseLanding-Opt.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 600px;
+    height: 400px;
     width: auto;
 }
+
+h3 {
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	color: white;
+}
+a {
+	color: green;
+}
+a:visited {
+	color:#83A07D;
+}
+a:hover {
+	color:#66ED79;
+}
+
 nav {
     margin: 0;
     padding: 0;
@@ -44,5 +62,42 @@ span.brand-style {
 #navbar-collapse.navbar-collapse.collapse {
     background-color: rgba(0,0,0,.2);    
     width: auto;
+}
+section {
+	height: 100px;
+	width:auto;
+	text-align: center;
+	margin: 5px 50px;
+	padding: 0 20px;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+	h3 {
+		font-size: 1.1em;
+	}
+	section {
+	height: 100px;
+	width:auto;
+	text-align: center;
+	margin: 5px 5px;
+	padding: 0 20px;
+}
+	
+}
+@media only screen and (max-width: 400px) {
+	h3 {
+		font-size: 1.0em;
+	}
+	section {
+	height: 100px;
+	width:auto;
+	text-align: center;
+	margin: 5px 5px;
+	padding: 0 20px;
+}
+	
 }
 
