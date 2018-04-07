@@ -77,12 +77,13 @@ footer {
 
 .panel-footer {
 	background-color: inherit;
+	font-size: 0.9em;
 }
 
 
 @media only screen and (min-width: 992px) {
 	header {
-    height: 600px;
+    height: 500px;
     width: auto;
 }
 }
@@ -103,15 +104,18 @@ footer {
 		
 	}
 	section {
-	height: 100px;
+	height: 300px;
 	width:auto;
 	text-align: center;
 	margin: 5px 5px;
 	padding: 0 20px;
 }
 	header {
-    height: 450px;
+    height: 250px;
     width: auto;
 }
+	footer {
+		font-size: 0.8em;
+	}
 }
 

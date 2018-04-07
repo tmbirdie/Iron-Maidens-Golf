@@ -85,6 +85,7 @@ footer {
 
 .panel-footer {
 	background-color: inherit;
+	font-size: 0.9em;
 }
 
 
@@ -121,5 +122,8 @@ footer {
     height: 50px;
     width: auto;
 }
+	footer {
+		font-size: 0.8em;
+	}
 }
 
