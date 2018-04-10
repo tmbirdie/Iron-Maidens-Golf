@@ -18,6 +18,7 @@ h3 {
 	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
 	color: white;
 }
+
 ul li a {
     color: green;
 }
@@ -72,14 +73,30 @@ span.brand-style {
     width: auto;
 }
 section {
-	height: 100px;
-	width:auto;
+	height: auto;
 	text-align: center;
 	margin: 5px 50px;
-	padding: 0 20px;
+	padding: 30px 20px;
 }
 
+section#body-section div {
+	padding-top: 20px;
+	width: 200px;
+	height: 275px;
+	border: 1px red solid;
+	display: inline-block;
+	justify-content:flex-start;
+}
+
+section#body-section.row {
+	justify-content: space-between;
+	display: flex;
+	
+}
+
+
 footer {
+	float: none;
 	padding: 20px;
 }
 
