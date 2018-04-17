@@ -35,6 +35,8 @@ a:hover {
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
      color: green;   
 }
+
+
     
     
 nav {
@@ -72,28 +74,52 @@ span.brand-style {
     background-color: rgba(0,0,0,.2);    
     width: auto;
 }
-section {
+section#title-section {
 	height: auto;
 	text-align: center;
 	margin: 5px 50px;
 	padding: 30px 20px;
 }
 
-section#body-section div {
-	padding-top: 20px;
-	width: 200px;
-	height: 275px;
-	border: 1px red solid;
-	display: inline-block;
-	justify-content:flex-start;
+section#body-section {
+	height:auto;
+    padding-bottom: 20px;
 }
 
-section#body-section.row {
-	justify-content: space-between;
-	display: flex;
-	
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0 4px;
 }
 
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 50px;
+
+}
+
+.column img {
+  margin-top: 18px;
+  vertical-align: middle;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
 
 footer {
 	float: none;
